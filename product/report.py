@@ -11,13 +11,13 @@ report_definitions = [
         "python_query": product_sales.product_sales_query,
         "permission": ["131205"],
     },
-    {
-        "name": "product_derived_operational_indicators",
-        "engine": 0,
-        "default_report": product_derived_operational_indicators.template,
-        "description": "Product Derived operational indicators",
-        "module": "product",
-        "python_query": product_derived_operational_indicators_query,
-        "permission": ["131203"],
-    },
+    # {
+    #     "name": "product_derived_operational_indicators",
+    #     "engine": 0,
+    #     "default_report": product_derived_operational_indicators.template,
+    #     "description": "Product Derived operational indicators",
+    #     "module": "product",
+    #     "python_query": product_derived_operational_indicators_query,
+    #     "permission": ["131203"],
+    # },
 ]
